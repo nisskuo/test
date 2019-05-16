@@ -1,7 +1,9 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
 <form action="index.php" method="post">
 　請輸入名字: <input type="text" name="mmm" />
 　<input type="submit" value="送出表單"/>
 </form> 
+</html>
 
 <?php
 if($_POST["mmm"]!=""){
