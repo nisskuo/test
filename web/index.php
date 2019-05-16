@@ -29,7 +29,7 @@ if($_POST["mmm"]!=""){
                         $result .= "No.".$item['gsx$no']['$t']."<br>";
                         $result .= "名字: ".$item['gsx$name']['$t']."<br><br>";
                         
-                        $result .="<委託項目>\n";
+                        $result .="<委託項目><br>";
                         if( $item['gsx$cbs']['$t']!="" || $item['gsx$cws']['$t']!="" || $item['gsx$bdis']['$t']!="" ||$item['gsx$wdis']['$t']!="" || $item['gsx$petticoat']['$t']!="")
                         {       
                             if($item['gsx$cbs']['$t']!="") $result .="藍底黃蟻裙 ".$item['gsx$cbs']['$t']."件<br>";
